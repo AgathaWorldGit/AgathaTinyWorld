@@ -14,5 +14,9 @@ public class AgathasTinyWorld : ModuleRules
             "EnhancedInput",
             "Paper2D"
         });
+        
+        PrivateDependencyModuleNames.AddRange(new string[] {
+            "Niagara"
+        });
     }
 }
