@@ -16,7 +16,9 @@ public class AgathasTinyWorld : ModuleRules
         });
         
         PrivateDependencyModuleNames.AddRange(new string[] {
-            "Niagara"
+            "Niagara",
+            "Slate",
+            "SlateCore"
         });
     }
 }
