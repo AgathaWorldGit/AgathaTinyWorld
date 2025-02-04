@@ -13,7 +13,10 @@ public class AgathasTinyWorld : ModuleRules
             "InputCore",
             "EnhancedInput",
             "Paper2D",
-            "UMG"
+            "UMG",
+            "AIModule",
+            "GameplayTasks",
+            "NavigationSystem"
         });
         
         PrivateDependencyModuleNames.AddRange(new string[] {
