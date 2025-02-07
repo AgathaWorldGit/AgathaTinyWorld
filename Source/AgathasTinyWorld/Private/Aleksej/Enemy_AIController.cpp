@@ -2,7 +2,7 @@
 
 
 #include "Enemy_AIController.h"
-
+#include"Martin/AgathaPaperCharacter.h"
 #include "ArghataWorld_AI2Character.h"
 #include "Enemy.h"
 #include "BehaviorTree/BlackboardComponent.h"
@@ -55,7 +55,7 @@ void AEnemy_AIController::SetupPerceptionSystem()
 
 void AEnemy_AIController::OnTargetDetected(AActor* Actor, FAIStimulus const Stimulus)
 {
-	if (auto*const Ch=Cast<AArghataWorld_AI2Character>(Actor))
+	if (auto*const Ch=Cast<AAgathaPaperCharacter>(Actor))
 	{
 		GetBlackboardComponent()->SetValueAsBool("CanSeePlayer",Stimulus.WasSuccessfullySensed());
 	}
