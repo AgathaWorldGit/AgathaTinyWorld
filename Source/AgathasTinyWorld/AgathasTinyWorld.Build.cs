@@ -16,7 +16,8 @@ public class AgathasTinyWorld : ModuleRules
             "UMG",
             "AIModule",
             "GameplayTasks",
-            "NavigationSystem"
+            "NavigationSystem",
+            "CommonUI"
         });
         
         PrivateDependencyModuleNames.AddRange(new string[] {
