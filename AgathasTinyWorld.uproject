@@ -11,7 +11,8 @@
 			"AdditionalDependencies": [
 				"Engine",
 				"Paper2D",
-				"UMG"
+				"UMG",
+				"CommonUI"
 			]
 		}
 	],
@@ -25,6 +26,10 @@
 		},
 		{
 			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonUI",
 			"Enabled": true
 		}
 	]
