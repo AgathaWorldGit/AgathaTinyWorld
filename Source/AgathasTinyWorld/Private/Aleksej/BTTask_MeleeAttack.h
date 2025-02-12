@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "BehaviorTree/Tasks/BTTask_BlackboardBase.h"
-#include "BehaviorTree/BehaviorTreeComponent.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "Enemy.h"
 #include "BTTask_MeleeAttack.generated.h"
@@ -19,7 +18,24 @@ class  UBTTask_MeleeAttack : public UBTTask_BlackboardBase
 public:
 	UBTTask_MeleeAttack();
 	EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
+
+protected:
+	// Martin --
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
+	UAkAudioEvent* RabbitAttackEvent;
+	// Martin --
 private:
-	bool MontageHasFinished(AEnemy*const npc);
+    bool MontageHasFinished(AEnemy* const npc);
 	
+	// MARTIN ----
+	void FinishAttackTask(UBehaviorTreeComponent* OwnerComp);
+	
+	void ApplyDamageToPlayer(AEnemy* npc);
+	
+	FTimerHandle AttackCooldownTimerHandle;
+
+	float DamageAmount = 15.0f;
+	
+	const FString RABBITATTACK_EVENT_PATH = FString(TEXT("/Script/AkAudio.AkAudioEvent'/Game/WwiseAudio/Events/Default_Work_Unit/RabbitAttack.RabbitAttack'"));
+	// MARTIN ----
 };

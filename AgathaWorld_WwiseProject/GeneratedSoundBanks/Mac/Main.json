@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C9C3E312-A7FF-4672-A8BC-12744AE932D5}",
     "Language": "SFX",
-    "Hash": "{71A7DC9B-3EFC-139B-7314-AAABDB519C2F}",
+    "Hash": "{5DA55E60-1BF3-A500-CAF2-11A9C51E0E0B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "JumpLanding_2.wav",
-      "CachePath": "18/{18387EE5-11E1-6E7F-19D7-92E7E5CB67CC}.wem"
+      "CachePath": "DB/{DBD148EE-FBB2-CDD0-1908-0B3CE6608C08}.wem"
      },
      {
       "Id": "21802559",
@@ -53,7 +53,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grunts_3.wav",
-      "CachePath": "E2/{E2F15F53-2892-0A68-02CA-CB08A02A9DFE}.wem"
+      "CachePath": "E0/{E0DD1DB9-3CF2-8734-11B4-60640DCB1764}.wem"
+     },
+     {
+      "Id": "63666980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BunnyAttack_7.wav",
+      "CachePath": "0A/{0A6831D4-378F-C185-35CA-09FA8EC6ACEF}.wem"
      },
      {
       "Id": "67435087",
@@ -72,6 +80,22 @@
       "CachePath": "30/{30859015-1C7F-3A1B-D7EC-89A7DAAC9BBF}.wem"
      },
      {
+      "Id": "163163444",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BunnyAttack_2.wav",
+      "CachePath": "E7/{E7711A30-5EB6-1C47-786F-F553C88B2B94}.wem"
+     },
+     {
+      "Id": "188109217",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GameFinished.wav",
+      "CachePath": "C9/{C9E79FC0-8950-CB69-6916-9382A95A5201}.wem"
+     },
+     {
       "Id": "212548829",
       "Language": "SFX",
       "Streaming": "false",
@@ -80,12 +104,20 @@
       "CachePath": "37/{377F601C-0AE3-13EA-FEC5-2B96081C6B5B}.wem"
      },
      {
+      "Id": "254732263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BunnyAttack_1.wav",
+      "CachePath": "E4/{E492005F-67A9-CD11-967E-ECAF9460C21A}.wem"
+     },
+     {
       "Id": "264886288",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grunts_2.wav",
-      "CachePath": "60/{60DD6FCB-D807-A7AC-7FAF-9F5DB5574639}.wem"
+      "CachePath": "AC/{ACCCF8D1-8DF9-B2B3-52E5-3B3F25543880}.wem"
      },
      {
       "Id": "290099551",
@@ -101,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "JumpLanding_5.wav",
-      "CachePath": "A9/{A95B478C-5349-2BCA-EE97-77EE6F095F77}.wem"
+      "CachePath": "A4/{A42EC5C5-2EFB-7B04-A746-523296EBF2BA}.wem"
      },
      {
       "Id": "328112342",
@@ -109,7 +141,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grunts_4.wav",
-      "CachePath": "01/{01455033-047A-BE66-784D-35223EEC9734}.wem"
+      "CachePath": "E9/{E9BBAC66-DD01-872A-7D02-428977FEB761}.wem"
+     },
+     {
+      "Id": "378642476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BunnyAttack_3.wav",
+      "CachePath": "24/{2475F1BF-5D93-E635-55F1-6B6355077458}.wem"
      },
      {
       "Id": "388170198",
@@ -117,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Death.wav",
-      "CachePath": "A1/{A141F71E-8092-40BC-CD57-F1D0976EECEF}.wem"
+      "CachePath": "86/{86354190-0824-68A6-494D-02DDFDAEF5B3}.wem"
      },
      {
       "Id": "389655534",
@@ -141,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "JumpLanding_3.wav",
-      "CachePath": "61/{61234F25-665A-3583-A98A-2734A6CF4E29}.wem"
+      "CachePath": "6E/{6E25001D-B7FA-DEF9-5B28-AB15D7A19C62}.wem"
      },
      {
       "Id": "434849430",
@@ -173,7 +213,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "JumpLanding_4.wav",
-      "CachePath": "23/{2326F806-FC35-35C1-C83B-A48889F62F3D}.wem"
+      "CachePath": "BA/{BA49F8CF-ED0C-C821-4AF5-FCC880802FB1}.wem"
      },
      {
       "Id": "741448456",
@@ -181,7 +221,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "JumpLanding_8.wav",
-      "CachePath": "81/{81F0577C-EDAC-3CDD-2976-F796AD1CCD86}.wem"
+      "CachePath": "91/{9120B9B5-C5BC-5E62-2BAA-E09C22C4E51B}.wem"
      },
      {
       "Id": "799891313",
@@ -189,7 +229,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "JumpLanding_7.wav",
-      "CachePath": "CD/{CD89DC00-71FC-B76A-2078-98AF5024B03B}.wem"
+      "CachePath": "19/{1942286B-59FD-1647-D580-B492BB1A18FD}.wem"
      },
      {
       "Id": "800060621",
@@ -197,7 +237,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grunts_1.wav",
-      "CachePath": "21/{21CBA5E3-C5A8-9DE2-8369-5A55C477C4AC}.wem"
+      "CachePath": "13/{13C9D2FF-BFDE-AED8-18BD-7476BFA9F72B}.wem"
      },
      {
       "Id": "812264894",
@@ -206,6 +246,14 @@
       "Location": "Memory",
       "ShortName": "Grunts_5.wav",
       "CachePath": "2A/{2A3F7A4B-EAB5-50C0-EC04-28E0C601A392}.wem"
+     },
+     {
+      "Id": "840904362",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BunnyAttack_4.wav",
+      "CachePath": "8F/{8F4B4CEE-C375-7E19-A8C9-BF3232794464}.wem"
      },
      {
       "Id": "847093556",
@@ -229,7 +277,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "JumpLanding_6.wav",
-      "CachePath": "BE/{BE14661E-EE6F-4D1C-BAE8-59B35FCC17E6}.wem"
+      "CachePath": "61/{6115D2F3-8D25-E8EC-D2A1-AAC504D84BA2}.wem"
+     },
+     {
+      "Id": "961548278",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BunnyAttack_8.wav",
+      "CachePath": "D2/{D25B120C-C464-686D-0939-255E46223779}.wem"
+     },
+     {
+      "Id": "987263139",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RabbitDying.wav",
+      "CachePath": "43/{43F0CC8C-4F14-E701-7395-AF8435C312BD}.wem"
+     },
+     {
+      "Id": "987760054",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BunnyAttack_6.wav",
+      "CachePath": "19/{19A95B11-007C-7E2F-A580-EAB0EB33AC6A}.wem"
      },
      {
       "Id": "1025162777",
@@ -238,6 +310,14 @@
       "Location": "Memory",
       "ShortName": "MainMenuMusic.wav",
       "CachePath": "70/{70A1F9B5-46B6-4199-2217-1237420054B3}.wem"
+     },
+     {
+      "Id": "1030668905",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BunnyAttack_5.wav",
+      "CachePath": "D5/{D5D25300-EE9E-471D-6117-52C607D9F796}.wem"
      }
     ],
     "Events": [
@@ -302,6 +382,18 @@
        },
        {
         "Id": "874638385"
+       }
+      ]
+     },
+     {
+      "Id": "536958500",
+      "Name": "GameFinishedTheme",
+      "ObjectPath": "\\Events\\Default Work Unit\\GameFinishedTheme",
+      "GUID": "{D240D8BC-BACB-49A1-9A65-C5E61A3A3542}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "188109217"
        }
       ]
      },
@@ -382,6 +474,55 @@
       ]
      },
      {
+      "Id": "2476219937",
+      "Name": "RabbitAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\RabbitAttack",
+      "GUID": "{1ADECD3C-748A-4FED-BBED-8E2C5E00232A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.576",
+      "DurationMax": "0.64",
+      "MediaRefs": [
+       {
+        "Id": "63666980"
+       },
+       {
+        "Id": "163163444"
+       },
+       {
+        "Id": "254732263"
+       },
+       {
+        "Id": "378642476"
+       },
+       {
+        "Id": "840904362"
+       },
+       {
+        "Id": "961548278"
+       },
+       {
+        "Id": "987760054"
+       },
+       {
+        "Id": "1030668905"
+       }
+      ]
+     },
+     {
+      "Id": "3078665925",
+      "Name": "RabbitDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\RabbitDeath",
+      "GUID": "{AE8E4DFE-F981-4108-A317-DD69B08724DC}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1004453",
+      "DurationMax": "2.1004453",
+      "MediaRefs": [
+       {
+        "Id": "987263139"
+       }
+      ]
+     },
+     {
       "Id": "1013654772",
       "Name": "RabbitDefault",
       "ObjectPath": "\\Events\\Default Work Unit\\RabbitDefault",
@@ -411,6 +552,6 @@
     ]
    }
   ],
-  "FileHash": "{E3B21255-9D12-B183-D368-A1E4286E26BF}"
+  "FileHash": "{C80CF0ED-7731-843B-5ACF-27EC2D7F60EC}"
  }
 }

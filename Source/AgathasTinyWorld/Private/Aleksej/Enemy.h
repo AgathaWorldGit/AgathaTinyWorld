@@ -9,6 +9,7 @@
 #include "BehaviorTree/BehaviorTree.h"
 #include "GameFramework/Character.h"
 #include "CombatinterFace.h"
+#include "../../../../Plugins/Wwise/Source/AkAudio/Classes/AkAudioEvent.h"
 #include "Animation/AnimMontage.h"
 #include "Enemy.generated.h"
 
@@ -36,9 +37,21 @@ public:
 
 	int MeleeAttack_Implementation() override;
 
+	// Martin ---
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float Health = 100.0f;
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+	void HandleDeath();
+	// Martin ---
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	// Martin --
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
+	UAkAudioEvent* RabbitDeathEvent;
+	// Martin --
+	
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI", meta = (AllowPrivateAccess = "true"))
 	UBehaviorTree* Tree;
@@ -49,5 +62,7 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animation, meta = (AllowPrivateAccess = "true"))
 	UAnimMontage*Montage;
 
-	
+	// Martin ---
+	const FString RABBITDEATH_EVENT_PATH = FString(TEXT("/Script/AkAudio.AkAudioEvent'/Game/WwiseAudio/Events/Default_Work_Unit/RabbitDeath.RabbitDeath'"));
+	// Martin ---
 };
