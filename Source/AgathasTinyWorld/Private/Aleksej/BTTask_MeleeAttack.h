@@ -34,7 +34,11 @@ private:
 	
 	FTimerHandle AttackCooldownTimerHandle;
 
-	float DamageAmount = 15.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
+	float Health = 100.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
+	float Damage = 5.0f;
 	
 	const FString RABBITATTACK_EVENT_PATH = FString(TEXT("/Script/AkAudio.AkAudioEvent'/Game/WwiseAudio/Events/Default_Work_Unit/RabbitAttack.RabbitAttack'"));
 	// MARTIN ----

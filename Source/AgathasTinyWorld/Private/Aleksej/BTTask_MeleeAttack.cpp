@@ -183,9 +183,9 @@ void UBTTask_MeleeAttack::ApplyDamageToPlayer(AEnemy* const npc)
     }
     
     // Apply damage to the player
-    PlayerCharacter->TakeDamage(DamageAmount, DamageEvent, PlayerController, npc);
+    PlayerCharacter->TakeDamage(Damage, DamageEvent, PlayerController, npc);
 
     // Log the damage application
-    UE_LOG(LogTemp, Log, TEXT("UBTTask_MeleeAttack::ApplyDamageToPlayer - Applied %f damage to player: %s"), DamageAmount, *PlayerCharacter->GetName());
+    UE_LOG(LogTemp, Log, TEXT("UBTTask_MeleeAttack::ApplyDamageToPlayer - Applied %f damage to player: %s"), Damage, *PlayerCharacter->GetName());
 }
 #pragma endregion Martin
