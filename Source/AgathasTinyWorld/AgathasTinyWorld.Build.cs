@@ -17,7 +17,9 @@ public class AgathasTinyWorld : ModuleRules
             "AIModule",
             "GameplayTasks",
             "NavigationSystem",
-            "CommonUI"
+            "CommonUI",
+            "AkAudio",
+            "WwiseSoundEngine"
         });
         
         PrivateDependencyModuleNames.AddRange(new string[] {

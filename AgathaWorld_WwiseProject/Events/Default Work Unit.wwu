@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambiance" ID="{0426A206-1B91-4A4C-B46E-4AE33A318889}">
+					<ChildrenList>
+						<Action Name="" ID="{E81747D6-C5D2-4812-9411-8481ADD6C287}" ShortID="444064133">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest" ID="{C3905259-2433-4391-B67B-74860371E0ED}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{E1896E61-1D96-4059-BD02-3EE15C1BFE48}">
+					<ChildrenList>
+						<Action Name="" ID="{D8EC3211-84F3-4B04-9554-2B5346595DE6}" ShortID="902231166">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{42C6D309-3222-4652-ADFE-07AE8CA64FC7}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MainMenuTheme" ID="{FFCC22F3-A69E-4263-803A-6307A26E5D0B}">
+					<ChildrenList>
+						<Action Name="" ID="{4B7EB8CF-1B89-4047-91BE-1948117AF28E}" ShortID="549696945">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuTheme" ID="{494752D1-323C-418A-BADA-9324272D123A}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SplashScreenTheme" ID="{A6937CCB-2FE3-432B-B306-3F4B234B3558}">
+					<ChildrenList>
+						<Action Name="" ID="{5953BD0C-5FB1-40B8-8C54-6D2A2A2C0D70}" ShortID="84454198">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SplashScreenTheme" ID="{DBCAC9C5-DB23-4EF7-9366-A0A2461DA293}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Landing" ID="{37FB8B2E-D080-44B2-BB19-6D527293D21B}">
+					<ChildrenList>
+						<Action Name="" ID="{E9F36D9C-984D-4E9B-A3B7-E03FE4FA26F9}" ShortID="428942233">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Landing" ID="{6E5D56EF-991C-4F1E-A70A-BDC338F2E0D4}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Grunts" ID="{1D08E748-E93E-4CA3-B550-C3D47506BFCE}">
+					<ChildrenList>
+						<Action Name="" ID="{3E63EB8B-3608-4129-8589-D4B982A7BD95}" ShortID="235035701">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grunts" ID="{7EB0DB8B-80D0-4412-87DE-CA734E7614B9}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death" ID="{138A6E6F-FA7A-45C0-89EA-BC16800E9779}">
+					<ChildrenList>
+						<Action Name="" ID="{7A980DE7-4AC5-4469-8EB6-001238BFC030}" ShortID="283914559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death" ID="{AAC10BB8-84B5-42BC-82F8-A28CF58D9008}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RabbitDefault" ID="{04BD1BC9-3AF7-4910-A62A-CAA335D7803F}">
+					<ChildrenList>
+						<Action Name="" ID="{A17555E2-3D1A-4F80-87C8-8519068E4728}" ShortID="546100568">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BunnyDefault" ID="{B4B73EB3-A0A5-4298-A3AE-19FA220B5CBD}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

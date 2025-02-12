@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{28E9B547-6708-4C79-B4EC-2C908A0A785A}" SchemaVersion="123">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{28E9B547-6708-4C79-B4EC-2C908A0A785A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{28E9B547-6708-4C79-B4EC-2C908A0A785A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{C9C3E312-A7FF-4672-A8BC-12744AE932D5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footsteps" ID="{E1896E61-1D96-4059-BD02-3EE15C1BFE48}" WorkUnitID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainMenuTheme" ID="{FFCC22F3-A69E-4263-803A-6307A26E5D0B}" WorkUnitID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SplashScreenTheme" ID="{A6937CCB-2FE3-432B-B306-3F4B234B3558}" WorkUnitID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Landing" ID="{37FB8B2E-D080-44B2-BB19-6D527293D21B}" WorkUnitID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Death" ID="{138A6E6F-FA7A-45C0-89EA-BC16800E9779}" WorkUnitID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RabbitDefault" ID="{04BD1BC9-3AF7-4910-A62A-CAA335D7803F}" WorkUnitID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiance" ID="{0426A206-1B91-4A4C-B46E-4AE33A318889}" WorkUnitID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Grunts" ID="{1D08E748-E93E-4CA3-B550-C3D47506BFCE}" WorkUnitID="{36C98B29-B83C-486D-9ED6-9EB47A92DA2C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
