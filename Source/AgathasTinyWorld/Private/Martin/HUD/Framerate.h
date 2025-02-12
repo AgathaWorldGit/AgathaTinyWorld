@@ -1,7 +1,6 @@
 #pragma once
 
 UENUM(BlueprintType)
-
 enum class EFramerate : uint8
 {
 	FPS_30 UMETA(DisplayName = "30 FPS"),
@@ -15,32 +14,52 @@ enum class EFramerate : uint8
 class FFramerateUtils
 {
 public:
+	// Convert the EFramerate enum to its integer value
 	static int EnumToValue(const EFramerate& InFramerate)
 	{
+		int Value = 0;
 		switch (InFramerate)
 		{
 		case EFramerate::FPS_30:
-			return 30;
+			Value = 30;
+			break;
 		case EFramerate::FPS_60:
-			return 60;
+			Value = 60;
+			break;
 		case EFramerate::FPS_120:
-			return 120;
+			Value = 120;
+			break;
 		case EFramerate::FPS_144:
-			return 144;
+			Value = 144;
+			break;
 		case EFramerate::FPS_240:
-			return 240;
+			Value = 240;
+			break;
 		case EFramerate::FPS_Uncapped:
-			return 0;
+			Value = 0;  // Uncapped doesn't have a defined limit
+			break;
 		default:
-			return 0;
+			UE_LOG(LogTemp, Warning, TEXT("Unknown framerate enum value, returning 0"));
+			Value = 0;  // Default case for unexpected values
+			break;
 		}
+		UE_LOG(LogTemp, Log, TEXT("EnumToValue: Framerate %s corresponds to %d FPS"), 
+			*UEnum::GetValueAsString(InFramerate), Value);
+		return Value;
 	}
 
-	static FString EnumToSTring(const EFramerate& InFramerate)
+	// Convert the EFramerate enum to a string representation
+	static FString EnumToString(const EFramerate& InFramerate)
 	{
 		const auto Value = EnumToValue(InFramerate);
-		return Value > 0
-					? FString::Printf(TEXT("%d FPS"), Value)
-					: FString(TEXT("Uncapped"));
+		FString Result = Value > 0 
+			? FString::Printf(TEXT("%d FPS"), Value)
+			: FString(TEXT("Uncapped"));
+		
+		// Log the conversion result
+		UE_LOG(LogTemp, Log, TEXT("EnumToString: Framerate %s converted to string '%s'"),
+			*UEnum::GetValueAsString(InFramerate), *Result);
+
+		return Result;
 	}
 };

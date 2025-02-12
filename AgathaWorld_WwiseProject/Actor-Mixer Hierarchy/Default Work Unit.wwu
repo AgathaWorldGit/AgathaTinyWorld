@@ -895,6 +895,292 @@
 						<ActiveSource Name="RabbitDefault" ID="{228DEBCE-521A-4B8F-872B-D67186D94F0C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="BunnyAttack" ID="{AF8C6D48-C8E1-4646-8435-733BA38F6571}" ShortID="831028759">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BunnyAttack_1" ID="{C58DEB40-3FAA-428E-BB76-32278A66983A}" ShortID="860064206">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BunnyAttack_1" ID="{AC0275D4-83F8-41B4-8DA3-F2718E92A8C3}">
+									<Language>SFX</Language>
+									<AudioFile>BunnyAttack_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="254732263"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BunnyAttack_1" ID="{AC0275D4-83F8-41B4-8DA3-F2718E92A8C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BunnyAttack_2" ID="{86360C00-BC45-45A8-9995-AA0C98D75F17}" ShortID="882580100">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BunnyAttack_2" ID="{75EAC1BA-D78D-4055-A0BF-750541E0A502}">
+									<Language>SFX</Language>
+									<AudioFile>BunnyAttack_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="163163444"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BunnyAttack_2" ID="{75EAC1BA-D78D-4055-A0BF-750541E0A502}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BunnyAttack_3" ID="{78AFE5CE-FADE-4BB5-879D-A1C885340824}" ShortID="319259295">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BunnyAttack_3" ID="{5D4DA863-6B9C-4496-A598-48D0953E971E}">
+									<Language>SFX</Language>
+									<AudioFile>BunnyAttack_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="378642476"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BunnyAttack_3" ID="{5D4DA863-6B9C-4496-A598-48D0953E971E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BunnyAttack_4" ID="{54271A90-441B-4C06-8594-448CB98E414D}" ShortID="387724771">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BunnyAttack_4" ID="{5457DA2D-99B6-4015-9254-9230C9748C82}">
+									<Language>SFX</Language>
+									<AudioFile>BunnyAttack_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="840904362"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BunnyAttack_4" ID="{5457DA2D-99B6-4015-9254-9230C9748C82}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BunnyAttack_5" ID="{F11B7940-0029-44F8-9189-827E8B41DCE5}" ShortID="417666276">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BunnyAttack_5" ID="{ECEF5D50-3EED-4489-9108-A444618577B6}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0366489917577135"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0366489917577135"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BunnyAttack_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1030668905"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BunnyAttack_5" ID="{ECEF5D50-3EED-4489-9108-A444618577B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BunnyAttack_6" ID="{56A8F6A3-B45B-44D1-8580-E50ED5E14DEB}" ShortID="659952857">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BunnyAttack_6" ID="{4C1CEB5A-5933-4A3C-9ACD-3521C3062D51}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0275546121445592"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0275546121445592"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BunnyAttack_6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="987760054"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BunnyAttack_6" ID="{4C1CEB5A-5933-4A3C-9ACD-3521C3062D51}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BunnyAttack_7" ID="{C92C1B8A-DBB1-4F06-B3E3-D24C7C03F8B9}" ShortID="1036341067">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BunnyAttack_7" ID="{6ECBC229-BE9B-45D5-BF09-E36F00E2F5C1}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0400424169204647"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0400424169204647"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BunnyAttack_7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="63666980"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BunnyAttack_7" ID="{6ECBC229-BE9B-45D5-BF09-E36F00E2F5C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BunnyAttack_8" ID="{9C0A089E-F38F-4D75-8A4E-3A0BE98E10DC}" ShortID="920234148">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BunnyAttack_8" ID="{9A8F90A9-AFC9-4538-89C9-D1BAD2AF78F1}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0264687162694597"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0264687162694597"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BunnyAttack_8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="961548278"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BunnyAttack_8" ID="{9A8F90A9-AFC9-4538-89C9-D1BAD2AF78F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="BunnyDeath" ID="{1F67A465-BC02-4D78-9E28-E3DF3F5E7CC0}" ShortID="283262891">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RabbitDying" ID="{6836FC0C-D43F-4D12-91BE-FAFAD46705DF}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.45030755379799"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.05022271137096"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.50010605303379"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.60055131555843"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>RabbitDying.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="987263139"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RabbitDying" ID="{6836FC0C-D43F-4D12-91BE-FAFAD46705DF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GameFinishedTheme" ID="{D1E32862-1315-4D07-A6F6-697230C857F2}" ShortID="852014819">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACA86F68-FE70-4A63-B8C2-FED21F637D73}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A8DC65AD-EAC9-4D08-90E0-A696C4A844E8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GameFinished" ID="{77EF0F19-E6BA-4440-A145-71860B9AC26A}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.539045606918577"/>
+								<Property Name="TrimEnd" Type="Real64" Value="30.4111557133049"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>GameFinished.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="188109217"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GameFinished" ID="{77EF0F19-E6BA-4440-A145-71860B9AC26A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

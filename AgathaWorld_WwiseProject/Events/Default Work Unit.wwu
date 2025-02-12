@@ -91,6 +91,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="RabbitAttack" ID="{1ADECD3C-748A-4FED-BBED-8E2C5E00232A}">
+					<ChildrenList>
+						<Action Name="" ID="{ABC7B46A-CAE9-4BD0-AE48-01A098025826}" ShortID="916150027">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BunnyAttack" ID="{AF8C6D48-C8E1-4646-8435-733BA38F6571}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RabbitDeath" ID="{AE8E4DFE-F981-4108-A317-DD69B08724DC}">
+					<ChildrenList>
+						<Action Name="" ID="{DD1D423F-B3DB-4C8A-BF12-A84F09AFAA79}" ShortID="1062664237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BunnyDeath" ID="{1F67A465-BC02-4D78-9E28-E3DF3F5E7CC0}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameFinishedTheme" ID="{D240D8BC-BACB-49A1-9A65-C5E61A3A3542}">
+					<ChildrenList>
+						<Action Name="" ID="{4D13B59F-1B5E-4FFA-A13D-788455B722DE}" ShortID="278232293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameFinishedTheme" ID="{D1E32862-1315-4D07-A6F6-697230C857F2}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
