@@ -3,7 +3,6 @@
 
 #include "Enemy_AIController.h"
 #include"Martin/AgathaPaperCharacter.h"
-#include "ArghataWorld_AI2Character.h"
 #include "Enemy.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "Perception/AIPerceptionComponent.h"

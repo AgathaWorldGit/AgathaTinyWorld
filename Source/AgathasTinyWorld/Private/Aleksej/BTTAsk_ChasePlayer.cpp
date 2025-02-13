@@ -5,7 +5,6 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "Enemy_AIController.h"
 #include "Blueprint/AIBlueprintHelperLibrary.h"
-#include "Slate/SGameLayerManager.h"
 
 UBTTAsk_ChasePlayer::UBTTAsk_ChasePlayer(FObjectInitializer const& ObjectInitializer):UBTTask_BlackboardBase(ObjectInitializer)
 {

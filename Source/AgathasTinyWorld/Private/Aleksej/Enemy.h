@@ -7,7 +7,6 @@
 #include "CCpAICharackterBase.h"
 #include "PatrolPath.h"
 #include "BehaviorTree/BehaviorTree.h"
-#include "GameFramework/Character.h"
 #include "CombatinterFace.h"
 #include "../../../../Plugins/Wwise/Source/AkAudio/Classes/AkAudioEvent.h"
 #include "Animation/AnimMontage.h"
@@ -43,6 +42,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float Damage = 5.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float AttackRange = 300.0f;
 	
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 	void HandleDeath();
@@ -54,6 +56,9 @@ protected:
 	// Martin --
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
 	UAkAudioEvent* RabbitDeathEvent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
+	UAkAudioEvent* RabbitDefaultEvent;
 	// Martin --
 	
 private:
@@ -68,5 +73,6 @@ private:
 
 	// Martin ---
 	const FString RABBITDEATH_EVENT_PATH = FString(TEXT("/Script/AkAudio.AkAudioEvent'/Game/WwiseAudio/Events/Default_Work_Unit/RabbitDeath.RabbitDeath'"));
+	const FString RABBITDEFAULT_EVENT_PATH = FString(TEXT("/Script/AkAudio.AkAudioEvent'/Game/WwiseAudio/Events/Default_Work_Unit/RabbitDefault.RabbitDefault'"));
 	// Martin ---
 };

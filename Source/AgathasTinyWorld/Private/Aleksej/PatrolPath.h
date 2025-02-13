@@ -17,12 +17,8 @@ public:
 
 	FVector GetPatrolPoint(int const index)const;
 	int Num()const;
-	// Called every framec
+	// Called every frame
 	// virtual void Tick(float DeltaTime) override;
-protected:
-	// Called when the game starts or when spawned
-	// virtual void BeginPlay() override;
-
 private:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="AI",meta=(MakeEditWidget="true",AllowPrivateAccess="true"))
 	TArray<FVector>PatrolPoints;
