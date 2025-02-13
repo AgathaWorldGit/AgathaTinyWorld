@@ -124,6 +124,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="HeavyAttack" ID="{07106C2D-8268-488B-9678-F4BC92B8FE72}">
+					<ChildrenList>
+						<Action Name="" ID="{F2AD1A95-F9DA-4EA2-BD81-DC0AAC780B38}" ShortID="664678388">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HeavyAttacks" ID="{26101D06-F836-4CFD-9B40-7D6C840B11D8}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LightAttack" ID="{0ED0F2FE-A66B-4402-A63E-D5777EF767F5}">
+					<ChildrenList>
+						<Action Name="" ID="{D69644E7-9D9B-45CC-B0AF-CB56C3E184E6}" ShortID="171489848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightAttacks" ID="{E42B7CF1-391F-4CCA-879D-3FA0F321644F}" WorkUnitID="{4E030609-8C73-46AA-9F03-81336A67A39A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

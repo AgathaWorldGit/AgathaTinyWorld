@@ -10,9 +10,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2981377429	Ambiance			\Default Work Unit\Ambiance	
 	3078665925	RabbitDeath			\Default Work Unit\RabbitDeath	
 	3189827666	MainMenuTheme			\Default Work Unit\MainMenuTheme	
+	3810630394	HeavyAttack			\Default Work Unit\HeavyAttack	
+	3950381691	LightAttack			\Default Work Unit\LightAttack	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3552855	SplashScreenTheme	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\58\{581460FF-610B-F6D5-5AD5-6C6CE25D0702}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SplashScreenTheme		1036896
+	8321409	HeavytAttack_5	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\B9\{B970627C-80BC-1618-7566-0F1EC40F5346}.wem		\Actor-Mixer Hierarchy\Default Work Unit\HeavyAttacks\HeavytAttack_5		186464
 	14111593	JumpLanding_2	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\DB\{DBD148EE-FBB2-CDD0-1908-0B3CE6608C08}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\JumpLanding_2		55308
 	21802559	Footstep_5	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\B9\{B9716CCB-57ED-753D-D3AE-A031163D046C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_5		89788
 	22435360	Footstep_6	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\F0\{F05EFA9C-0AE4-7D88-DD97-B75FCF390AF2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_6		76976
@@ -23,8 +26,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	163163444	BunnyAttack_2	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\E7\{E7711A30-5EB6-1C47-786F-F553C88B2B94}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyAttack\BunnyAttack_2		122976
 	188109217	GameFinishedTheme	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\E0\{E00D3E28-484E-404F-56C0-15D008E35F17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameFinishedTheme		5735540
 	212548829	Footstep_4	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\37\{377F601C-0AE3-13EA-FEC5-2B96081C6B5B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_4		89788
+	233258347	HeavytAttack_1	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\8F\{8F949BE5-A646-C050-2DEC-91724F5086D5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\HeavyAttacks\HeavytAttack_1		115856
 	254732263	BunnyAttack_1	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\E4\{E492005F-67A9-CD11-967E-ECAF9460C21A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyAttack\BunnyAttack_1		118880
 	264886288	Grunts_2	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\AC\{ACCCF8D1-8DF9-B2B3-52E5-3B3F25543880}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunts\Grunts_2		67404
+	274832119	HeavytAttack_4	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\FC\{FC660F85-86B3-4DAF-2105-606FEC9F83CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\HeavyAttacks\HeavytAttack_4		92256
 	290099551	BunnyDefault	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\73\{736B4579-9033-4485-793D-6EFBF8D189ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyDefault		3421536
 	324458231	JumpLanding_5	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\A4\{A42EC5C5-2EFB-7B04-A746-523296EBF2BA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\JumpLanding_5		63494
 	328112342	Grunts_4	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\E9\{E9BBAC66-DD01-872A-7D02-428977FEB761}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunts\Grunts_4		85732
@@ -33,21 +38,28 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	389655534	Footstep_8	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\CB\{CBF3553E-7353-17FF-D7CF-442EC1514B8F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_8		83380
 	392067340	Grunts_6	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\20\{201E9923-5DD0-57EA-DEC8-CC1B5DA44631}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunts\Grunts_6		82016
 	408725492	JumpLanding_3	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\6E\{6E25001D-B7FA-DEF9-5B28-AB15D7A19C62}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\JumpLanding_3		44818
+	428359682	LightAttack_3	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\14\{1453D268-0CB4-457B-FE36-89DD327D2C92}.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightAttacks\LightAttack_3		43528
+	433278345	LightAttack_2	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\34\{34464F22-1D9B-76D8-DE21-4DB263C1DCC3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightAttacks\LightAttack_2		38176
 	434849430	Footstep_2	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\BC\{BC1A1F64-835B-C745-D1F0-F2CF87730B19}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_2		96192
 	541560507	Footstep_3	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\41\{4197BEAC-90A0-2DB2-B97B-FCADAA574326}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_3		76976
+	566581430	LightAttack_1	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\A5\{A546B80F-F19B-A06E-3AF6-E2A95819CBA7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightAttacks\LightAttack_1		50210
 	589156409	JumpLanding_1	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\A7\{A78226CF-82DB-5640-00DC-C2958D958DDB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\JumpLanding_1		90610
+	589501831	LightAttack_4	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\69\{69B5F423-9E0F-3ABC-070A-C5557B081C6F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightAttacks\LightAttack_4		47200
 	668044900	JumpLanding_4	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\BA\{BA49F8CF-ED0C-C821-4AF5-FCC880802FB1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\JumpLanding_4		75120
+	700680615	HeavytAttack_2	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\49\{49F0F8D9-5864-53E2-4B3C-E6F83B41AE95}.wem		\Actor-Mixer Hierarchy\Default Work Unit\HeavyAttacks\HeavytAttack_2		139360
 	741448456	JumpLanding_8	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\91\{9120B9B5-C5BC-5E62-2BAA-E09C22C4E51B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\JumpLanding_8		57440
 	799891313	JumpLanding_7	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\19\{1942286B-59FD-1647-D580-B492BB1A18FD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\JumpLanding_7		53380
 	800060621	Grunts_1	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\13\{13C9D2FF-BFDE-AED8-18BD-7476BFA9F72B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunts\Grunts_1		38210
 	812264894	Grunts_5	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\2A\{2A3F7A4B-EAB5-50C0-EC04-28E0C601A392}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grunts\Grunts_5		61536
 	840904362	BunnyAttack_4	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\8F\{8F4B4CEE-C375-7E19-A8C9-BF3232794464}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyAttack\BunnyAttack_4		110688
 	847093556	Forest	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\83\{83446256-FF77-B244-04B6-118C2C07C279}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Forest		17515104
+	866417271	LightAttack_5	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\EA\{EACC09E3-A5C2-1012-E668-060A60CAAEB1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightAttacks\LightAttack_5		63584
 	874638385	Footstep_9	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\39\{39ADD135-14A6-E01E-9DEE-C6897CE41CF7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep_9		89788
 	904268632	JumpLanding_6	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\61\{6115D2F3-8D25-E8EC-D2A1-AAC504D84BA2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\JumpLanding_6		97218
 	961548278	BunnyAttack_8	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\06\{06A20306-4F04-DC94-8614-B2E4787A00DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyAttack\BunnyAttack_8		117896
-	987263139	BunnyDeath	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\21\{21A30121-C59D-EB0C-98BB-0C09B49D49B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyDeath		201738
+	987263139	BunnyDeath	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\A7\{A70406C9-B21E-F588-3E76-24C9E1083911}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyDeath		201738
 	987760054	BunnyAttack_6	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\57\{57A137DA-8B5C-B0E7-5AA4-37CA31A2C4B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyAttack\BunnyAttack_6		113588
 	1025162777	MainMenuTheme	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\70\{70A1F9B5-46B6-4199-2217-1237420054B3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenuTheme		23044704
 	1030668905	BunnyAttack_5	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\D9\{D959DA3B-6742-F35D-51F5-B7F8D8852997}.wem		\Actor-Mixer Hierarchy\Default Work Unit\BunnyAttack\BunnyAttack_5		115940
+	1056134264	HeavytAttack_3	D:\PersonalStuff\SAE\5FSC0XD101_0924\AgathaWorld\AgathaWorld_WwiseProject\.cache\FC\{FC81A664-A576-946B-63EF-41999DCCADA8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\HeavyAttacks\HeavytAttack_3		118880
 

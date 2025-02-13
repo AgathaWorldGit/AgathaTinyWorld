@@ -165,6 +165,19 @@ void UBTTask_MeleeAttack::ApplyDamageToPlayer(AEnemy* const npc)
         return;
     }
 
+    // Get distance between the enemy and the player
+    const float DistanceToPlayer = FVector::Dist(npc->GetActorLocation(), PlayerCharacter->GetActorLocation());
+
+    // Log the distance
+    UE_LOG(LogTemp, Log, TEXT("UBTTask_MeleeAttack::ApplyDamageToPlayer - Distance to player: %f"), DistanceToPlayer);
+
+    // Check if the player is within attack range
+    if (DistanceToPlayer > this->AttackRange)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("UBTTask_MeleeAttack::ApplyDamageToPlayer - Player is too far! Not attacking."));
+        return;
+    }
+
     // Define the damage event
     const FDamageEvent DamageEvent;
 
@@ -178,7 +191,6 @@ void UBTTask_MeleeAttack::ApplyDamageToPlayer(AEnemy* const npc)
                 false
             );
 
-        // Include the event name in the log for clarity
         UE_LOG(LogTemp, Log, TEXT("Played sound: %s"), *RabbitAttackEvent->GetName());
     }
     
@@ -188,4 +200,5 @@ void UBTTask_MeleeAttack::ApplyDamageToPlayer(AEnemy* const npc)
     // Log the damage application
     UE_LOG(LogTemp, Log, TEXT("UBTTask_MeleeAttack::ApplyDamageToPlayer - Applied %f damage to player: %s"), Damage, *PlayerCharacter->GetName());
 }
+
 #pragma endregion Martin
