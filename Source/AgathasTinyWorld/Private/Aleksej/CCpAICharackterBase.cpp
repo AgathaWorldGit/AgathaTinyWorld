@@ -1,26 +1,24 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "CCpAICharackterBase.h"
 #include "Const.h"
 #include "HealthBar_Widged.h"
-#include "Components/BoxComponent.h"
 #include "Components/WidgetComponent.h"
 
 // Sets default values
 ACCpAICharackterBase::ACCpAICharackterBase() :
 WidgetComponent{CreateDefaultSubobject<UWidgetComponent>(TEXT("HealthValue"))},Health{MaxHealth}
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ 	// Set this character to call Tick() every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	if (WidgetComponent)
 	{
 		WidgetComponent->SetupAttachment(RootComponent);
 		WidgetComponent->SetWidgetSpace(EWidgetSpace::Screen);
 		WidgetComponent->SetRelativeLocation(defs::HealthBarZ);
-		static ConstructorHelpers::FClassFinder<UUserWidget> WidgetClass{TEXT("/Game/UI/BP_HealthBar")};
-		if (WidgetClass.Succeeded())
-		WidgetComponent->SetWidgetClass(WidgetClass.Class);
+		// static ConstructorHelpers::FClassFinder<UUserWidget> WidgetClass{TEXT("/Game/UI/BP_HealthBar")};
+		// if (WidgetClass.Succeeded())
+		// WidgetComponent->SetWidgetClass(WidgetClass.Class);
 	}
 
 		
@@ -41,9 +39,6 @@ void ACCpAICharackterBase::Tick(float DeltaTime)
 	{
 		widget->SetBarValuePercent(Health/ MaxHealth);
 	}
-		
-			
-
 }
 
 // Called to bind functionality to input

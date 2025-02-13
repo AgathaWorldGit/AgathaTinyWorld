@@ -53,6 +53,9 @@ protected:
 	// Martin --
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
 	UAkAudioEvent* RabbitDeathEvent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
+	UAkAudioEvent* RabbitDefaultEvent;
 	// Martin --
 	
 private:
@@ -67,5 +70,6 @@ private:
 
 	// Martin ---
 	const FString RABBITDEATH_EVENT_PATH = FString(TEXT("/Script/AkAudio.AkAudioEvent'/Game/WwiseAudio/Events/Default_Work_Unit/RabbitDeath.RabbitDeath'"));
+	const FString RABBITDEFAULT_EVENT_PATH = FString(TEXT("/Script/AkAudio.AkAudioEvent'/Game/WwiseAudio/Events/Default_Work_Unit/RabbitDefault.RabbitDefault'"));
 	// Martin ---
 };

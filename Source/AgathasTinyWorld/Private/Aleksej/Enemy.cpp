@@ -17,11 +17,23 @@ AEnemy::AEnemy()
 	if (RabbitDeathEventObj.Succeeded())
 	{
 		RabbitDeathEvent = RabbitDeathEventObj.Object;
-		UE_LOG(LogTemp, Warning, TEXT("RabbitDeathEvent loaded successfully."));
+		UE_LOG(LogTemp, Log, TEXT("RabbitDeathEvent loaded successfully."));
 	}
 	else
 	{
 		UE_LOG(LogTemp, Error, TEXT("Failed to load RabbitDeathEvent!"));
+	}
+
+	static ConstructorHelpers::FObjectFinder<UAkAudioEvent> RabbitDefaultEventObj(*RABBITDEFAULT_EVENT_PATH);
+    
+	if (RabbitDefaultEventObj.Succeeded())
+	{
+		RabbitDefaultEvent = RabbitDefaultEventObj.Object;
+		UE_LOG(LogTemp, Log, TEXT("RabbitDefaultEvent loaded successfully."));
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("Failed to load RabbitDefaultEvent!"));
 	}
 }
 
@@ -29,6 +41,23 @@ AEnemy::AEnemy()
 void AEnemy::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (const FString EnemyName = GetClass()->GetName(); EnemyName != "Bossbunny_C")
+	{
+		if (RabbitDefaultEvent)
+		{
+			UAkGameplayStatics::PostEvent(
+				RabbitDefaultEvent, 
+				this, 
+				0, 
+				FOnAkPostEventCallback(), 
+				true
+			);
+
+			// Include the event name in the log for clarity
+			UE_LOG(LogTemp, Log, TEXT("Played sound: %s"), *RabbitDeathEvent->GetName());
+		}
+	}
 	
 }
 
@@ -75,7 +104,7 @@ float AEnemy::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEv
 	AActor* DamageCauser)
 {
 
-	UE_LOG(LogTemp, Warning, TEXT("TakeDamage called on: %s"), *GetName());
+	UE_LOG(LogTemp, Log, TEXT("TakeDamage called on: %s"), *GetName());
 	Health -= DamageAmount;
 
 	if (Health <= 0)
@@ -98,15 +127,15 @@ void AEnemy::HandleDeath()
 			);
 
 		// Include the event name in the log for clarity
-		UE_LOG(LogTemp, Warning, TEXT("Played sound: %s"), *RabbitDeathEvent->GetName());
+		UE_LOG(LogTemp, Log, TEXT("Played sound: %s"), *RabbitDeathEvent->GetName());
 	}
 
-	FString EnemyName = GetClass()->GetName();
+	const FString EnemyName = GetClass()->GetName();
 	UE_LOG(LogTemp, Log, TEXT("%s has died!"), *GetName());
 
 	if (EnemyName == "Bossbunny_C") 
 	{
-		UE_LOG(LogTemp, Warning, TEXT("BossBunny has died, loading GameOver Level!"));
+		UE_LOG(LogTemp, Log, TEXT("BossBunny has died, loading GameOver Level!"));
 
 		UGameplayStatics::OpenLevel(GetWorld(), "L_GameFinished");
 	}

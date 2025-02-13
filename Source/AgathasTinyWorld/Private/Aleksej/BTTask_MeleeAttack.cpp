@@ -22,7 +22,7 @@ UBTTask_MeleeAttack::UBTTask_MeleeAttack()
     if (RabbitAttackEventObj.Succeeded())
     {
         RabbitAttackEvent = RabbitAttackEventObj.Object;
-        UE_LOG(LogTemp, Warning, TEXT("RabbitAttackEvent loaded successfully."));
+        UE_LOG(LogTemp, Log, TEXT("RabbitAttackEvent loaded successfully."));
     }
     else
     {
@@ -117,7 +117,7 @@ bool UBTTask_MeleeAttack::MontageHasFinished(AEnemy* const npc)
     }
 
     // Log that the montage check failed due to invalid pointers
-    UE_LOG(LogTemp, Warning, TEXT("UBTTask_MeleeAttack::MontageHasFinished - Invalid NPC, Mesh, or AnimInstance"));
+    UE_LOG(LogTemp, Log, TEXT("UBTTask_MeleeAttack::MontageHasFinished - Invalid NPC, Mesh, or AnimInstance"));
     return false;
 }
 
@@ -179,7 +179,7 @@ void UBTTask_MeleeAttack::ApplyDamageToPlayer(AEnemy* const npc)
             );
 
         // Include the event name in the log for clarity
-        UE_LOG(LogTemp, Warning, TEXT("Played sound: %s"), *RabbitAttackEvent->GetName());
+        UE_LOG(LogTemp, Log, TEXT("Played sound: %s"), *RabbitAttackEvent->GetName());
     }
     
     // Apply damage to the player
