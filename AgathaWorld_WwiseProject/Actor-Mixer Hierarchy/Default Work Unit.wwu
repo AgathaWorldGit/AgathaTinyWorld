@@ -1129,7 +1129,7 @@
 					<ChildrenList>
 						<AudioFileSource Name="RabbitDying" ID="{6836FC0C-D43F-4D12-91BE-FAFAD46705DF}">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="1.45030755379799"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.44030543273731"/>
 								<Property Name="FadeOutDuration" Type="Real64" Value="1.05022271137096"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="0.50010605303379"/>
