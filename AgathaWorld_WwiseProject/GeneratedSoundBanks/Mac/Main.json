@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C9C3E312-A7FF-4672-A8BC-12744AE932D5}",
     "Language": "SFX",
-    "Hash": "{5DA55E60-1BF3-A500-CAF2-11A9C51E0E0B}",
+    "Hash": "{C25A69E7-9545-2747-C9C1-A42A140370B7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BunnyAttack_7.wav",
-      "CachePath": "0A/{0A6831D4-378F-C185-35CA-09FA8EC6ACEF}.wem"
+      "CachePath": "1F/{1FD1B860-F059-8319-AEE6-5C20319FB292}.wem"
      },
      {
       "Id": "67435087",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GameFinished.wav",
-      "CachePath": "C9/{C9E79FC0-8950-CB69-6916-9382A95A5201}.wem"
+      "CachePath": "E0/{E00D3E28-484E-404F-56C0-15D008E35F17}.wem"
      },
      {
       "Id": "212548829",
@@ -285,7 +285,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BunnyAttack_8.wav",
-      "CachePath": "D2/{D25B120C-C464-686D-0939-255E46223779}.wem"
+      "CachePath": "06/{06A20306-4F04-DC94-8614-B2E4787A00DB}.wem"
      },
      {
       "Id": "987263139",
@@ -293,7 +293,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "RabbitDying.wav",
-      "CachePath": "43/{43F0CC8C-4F14-E701-7395-AF8435C312BD}.wem"
+      "CachePath": "21/{21A30121-C59D-EB0C-98BB-0C09B49D49B9}.wem"
      },
      {
       "Id": "987760054",
@@ -301,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BunnyAttack_6.wav",
-      "CachePath": "19/{19A95B11-007C-7E2F-A580-EAB0EB33AC6A}.wem"
+      "CachePath": "57/{57A137DA-8B5C-B0E7-5AA4-37CA31A2C4B9}.wem"
      },
      {
       "Id": "1025162777",
@@ -317,7 +317,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BunnyAttack_5.wav",
-      "CachePath": "D5/{D5D25300-EE9E-471D-6117-52C607D9F796}.wem"
+      "CachePath": "D9/{D959DA3B-6742-F35D-51F5-B7F8D8852997}.wem"
      }
     ],
     "Events": [
@@ -552,6 +552,6 @@
     ]
    }
   ],
-  "FileHash": "{C80CF0ED-7731-843B-5ACF-27EC2D7F60EC}"
+  "FileHash": "{B421EA66-8B83-8DE5-B579-164A4D693DC4}"
  }
 }

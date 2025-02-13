@@ -7,7 +7,6 @@
 #include "CCpAICharackterBase.h"
 #include "PatrolPath.h"
 #include "BehaviorTree/BehaviorTree.h"
-#include "GameFramework/Character.h"
 #include "CombatinterFace.h"
 #include "../../../../Plugins/Wwise/Source/AkAudio/Classes/AkAudioEvent.h"
 #include "Animation/AnimMontage.h"
